@@ -1,2 +1,4 @@
 # kkalnins
 ko
+kas
+kāpēc 
