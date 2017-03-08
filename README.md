@@ -1,5 +1,1 @@
-# kkalnins
-ko
-kas
-kÄpÄ“c 
-<><~~~~<><~~~~~<><~~~~~
+Ğeit mçs glabâsim visa veida izmaiòas.
