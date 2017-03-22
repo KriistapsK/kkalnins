@@ -90,4 +90,64 @@ F2 "VCC" I L 7400 1800 60
 F3 "+3.3" O R 8900 1550 60 
 F4 "GND" I L 7400 1950 60 
 $EndSheet
+Wire Wire Line
+	7400 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 3950
+Wire Wire Line
+	5200 3900 5600 3900
+Wire Wire Line
+	7400 3150 5600 3150
+Wire Wire Line
+	5600 3150 5600 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	7400 4450 5800 4450
+Wire Wire Line
+	5800 4450 5800 3950
+Wire Wire Line
+	5800 3950 5500 3950
+Wire Wire Line
+	7400 5700 5500 5700
+Wire Wire Line
+	5500 5700 5500 3900
+Wire Wire Line
+	5200 4200 6800 4200
+Wire Wire Line
+	6450 1950 6450 4650
+Wire Wire Line
+	6450 1950 7400 1950
+Wire Wire Line
+	7400 3400 6800 3400
+Wire Wire Line
+	6800 3400 6800 4200
+Connection ~ 6450 4200
+Wire Wire Line
+	6450 4650 7400 4650
+Wire Wire Line
+	7400 5900 6550 5900
+Wire Wire Line
+	6550 5900 6550 4200
+Wire Wire Line
+	6550 4200 6450 4200
+Wire Wire Line
+	8900 4150 9300 4150
+Wire Wire Line
+	8900 5450 9300 5450
+Wire Wire Line
+	8900 2850 9300 2850
+Wire Wire Line
+	8900 1550 9300 1550
+Entry Wire Line
+	9300 1550 9400 1650
+Entry Wire Line
+	9300 2850 9400 2950
+Entry Wire Line
+	9300 4150 9400 4250
+Entry Wire Line
+	9300 5450 9400 5550
+Wire Bus Line
+	9400 1550 9400 5900
+Text Label 9400 2150 0    60   ~ 0
+Stab_sprieg_Kopne
 $EndSCHEMATC
