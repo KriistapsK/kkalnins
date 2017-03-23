@@ -1,4 +1,4 @@
-update=22.03.2017 13:44:16
+update=23.03.2017 10:41:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/Kristaps/Desktop/TestProject/kkalnins/Projekti/Library
+LibDir=../Library
 [eeschema/libraries]
 LibName1=PWR_Supply-rescue
 LibName2=power

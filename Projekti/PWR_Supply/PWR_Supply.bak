@@ -148,6 +148,6 @@ Entry Wire Line
 	9300 5450 9400 5550
 Wire Bus Line
 	9400 1550 9400 5900
-Text GLabel 9400 1600 2    60   Output ~ 12
-Stab_Srieg_Kopne
+Text Label 9400 2150 0    60   ~ 0
+Stab_sprieg_Kopne
 $EndSCHEMATC
