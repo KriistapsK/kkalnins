@@ -77,9 +77,13 @@ F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-6K8-pdf.ph
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5050 3300 5500 3300
+	5050 3300 5250 3300
 Wire Wire Line
-	5250 3000 5250 3650
+	5250 3300 5500 3300
+Wire Wire Line
+	5250 3000 5250 3300
+Wire Wire Line
+	5250 3300 5250 3650
 Connection ~ 5250 3300
 $Comp
 L R R4
@@ -93,13 +97,19 @@ F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-25JB-1K8-pdf.ph
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5800 3500 5800 3650
+	5800 3500 5800 3600
+Wire Wire Line
+	5800 3600 5800 3650
 Wire Wire Line
 	5250 3950 5250 4150
 Wire Wire Line
-	5250 4150 6350 4150
+	5250 4150 5800 4150
 Wire Wire Line
-	5800 3950 5800 4300
+	5800 4150 6350 4150
+Wire Wire Line
+	5800 3950 5800 4150
+Wire Wire Line
+	5800 4150 5800 4300
 $Comp
 L C C2
 U 1 1 58D3958F
@@ -117,10 +127,16 @@ Wire Wire Line
 	6350 3600 6350 3650
 Connection ~ 5800 3600
 Wire Wire Line
-	6350 3950 6350 4250
+	6350 3950 6350 4150
+Wire Wire Line
+	6350 4150 6350 4250
 Connection ~ 5800 4150
 Wire Wire Line
-	5250 2650 6450 2650
+	5250 2650 5800 2650
+Wire Wire Line
+	5800 2650 6150 2650
+Wire Wire Line
+	6150 2650 6450 2650
 Wire Wire Line
 	5250 2650 5250 2700
 Connection ~ 5800 2650
@@ -149,18 +165,18 @@ $EndComp
 Wire Wire Line
 	4200 3300 4750 3300
 Wire Wire Line
-	4200 3400 4300 3400
+	4200 3400 4450 3400
 Wire Wire Line
-	4300 3400 4300 3950
+	4450 3400 4450 3950
 $Comp
 L GND #PWR01
 U 1 1 58D39852
-P 4300 3950
-F 0 "#PWR01" H 4300 3700 50  0001 C CNN
-F 1 "GND" H 4300 3800 50  0000 C CNN
-F 2 "Connectors:1pin" H 4300 3950 50  0001 C CNN
-F 3 "" H 4300 3950 50  0000 C CNN
-	1    4300 3950
+P 4450 3950
+F 0 "#PWR01" H 4450 3700 50  0001 C CNN
+F 1 "GND" H 4450 3800 50  0000 C CNN
+F 2 "Connectors:1pin" H 4450 3950 50  0001 C CNN
+F 3 "" H 4450 3950 50  0000 C CNN
+	1    4450 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -201,7 +217,9 @@ $EndComp
 Wire Wire Line
 	5800 2650 5800 2700
 Wire Wire Line
-	5800 3000 5800 3100
+	5800 3000 5800 3050
+Wire Wire Line
+	5800 3050 5800 3100
 Wire Wire Line
 	5800 3050 6400 3050
 Connection ~ 5800 3050
