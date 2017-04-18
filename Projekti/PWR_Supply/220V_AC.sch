@@ -123,7 +123,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3800 6050 3600
 Text HLabel 6500 3100 2    60   Input ~ 0
-VCC
++12V
 Text HLabel 6550 3800 2    60   Input ~ 0
 GND
 Connection ~ 6050 3100
