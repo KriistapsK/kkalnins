@@ -77,13 +77,9 @@ F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-6K8-pdf.ph
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5050 3300 5250 3300
+	5050 3300 5500 3300
 Wire Wire Line
-	5250 3300 5500 3300
-Wire Wire Line
-	5250 3000 5250 3300
-Wire Wire Line
-	5250 3300 5250 3650
+	5250 3000 5250 3650
 Connection ~ 5250 3300
 $Comp
 L R R4
@@ -97,19 +93,13 @@ F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-25JB-1K8-pdf.ph
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5800 3500 5800 3600
-Wire Wire Line
-	5800 3600 5800 3650
+	5800 3500 5800 3650
 Wire Wire Line
 	5250 3950 5250 4150
 Wire Wire Line
-	5250 4150 5800 4150
+	5250 4150 6350 4150
 Wire Wire Line
-	5800 4150 6350 4150
-Wire Wire Line
-	5800 3950 5800 4150
-Wire Wire Line
-	5800 4150 5800 4300
+	5800 3950 5800 4300
 $Comp
 L C C2
 U 1 1 58D3958F
@@ -127,16 +117,10 @@ Wire Wire Line
 	6350 3600 6350 3650
 Connection ~ 5800 3600
 Wire Wire Line
-	6350 3950 6350 4150
-Wire Wire Line
-	6350 4150 6350 4250
+	6350 3950 6350 4250
 Connection ~ 5800 4150
 Wire Wire Line
-	5250 2650 5800 2650
-Wire Wire Line
-	5800 2650 6150 2650
-Wire Wire Line
-	6150 2650 6450 2650
+	5250 2650 6450 2650
 Wire Wire Line
 	5250 2650 5250 2700
 Connection ~ 5800 2650
@@ -217,9 +201,7 @@ $EndComp
 Wire Wire Line
 	5800 2650 5800 2700
 Wire Wire Line
-	5800 3000 5800 3050
-Wire Wire Line
-	5800 3050 5800 3100
+	5800 3000 5800 3100
 Wire Wire Line
 	5800 3050 6400 3050
 Connection ~ 5800 3050
@@ -285,5 +267,46 @@ F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm" H 6588 2900 50  0001 C CNN
 F 3 "https://www.westfloridacomponents.com/mm5/graphics/L06/ECEA1HN2R2UH.pdf" H 6550 3050 50  0001 C CNN
 	1    6550 3050
 	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P3
+U 1 1 59143DD1
+P 7350 4150
+F 0 "P3" H 7350 4300 50  0000 C CNN
+F 1 "CONN" V 7450 4150 50  0000 C CNN
+F 2 "Connectors:AK300-2" H 7350 4150 50  0001 C CNN
+F 3 "" H 7350 4150 50  0000 C CNN
+	1    7350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4200 7050 4200
+Wire Wire Line
+	7050 4200 7050 4350
+$Comp
+L GND #PWR07
+U 1 1 59143E4A
+P 7050 4350
+F 0 "#PWR07" H 7050 4100 50  0001 C CNN
+F 1 "GND" H 7050 4200 50  0000 C CNN
+F 2 "Connectors:1pin" H 7050 4350 50  0001 C CNN
+F 3 "" H 7050 4350 50  0000 C CNN
+	1    7050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4100 7050 4100
+Wire Wire Line
+	7050 4100 7050 4000
+$Comp
+L +24V #PWR08
+U 1 1 59143EA3
+P 7050 4000
+F 0 "#PWR08" H 7050 3850 50  0001 C CNN
+F 1 "+24V" H 7050 4140 50  0000 C CNN
+F 2 "Connectors:1pin" H 7050 4000 50  0001 C CNN
+F 3 "" H 7050 4000 50  0000 C CNN
+	1    7050 4000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -3,9 +3,9 @@
   (general
     (links 16)
     (no_connects 16)
-    (area 120.574999 69.774999 196.925001 133.425001)
+    (area 25.324999 25.324999 101.675001 88.975001)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 11)
@@ -66,7 +66,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (grid_origin 88.9 88.9)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFEFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -129,7 +129,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D10.0mm_P2.50mm (layer F.Cu) (tedit 58765D06) (tstamp 59143785)
-    (at 141.01 102.235)
+    (at 45.76 57.785)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 10mm Electrolytic Capacitor")
     (path /58D39704)
@@ -338,7 +338,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D10.0mm_P2.50mm (layer F.Cu) (tedit 58765D06) (tstamp 59143846)
-    (at 175.26 111.165 270)
+    (at 80.01 66.715 270)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 10mm Electrolytic Capacitor")
     (path /58D3958F)
@@ -547,7 +547,7 @@
   )
 
   (module Capacitors_THT:CP_Radial_D10.0mm_P2.50mm (layer F.Cu) (tedit 58765D06) (tstamp 59143907)
-    (at 175.895 85.09 180)
+    (at 80.645 40.64 180)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 10mm Electrolytic Capacitor")
     (path /58D98F78)
@@ -756,7 +756,7 @@
   )
 
   (module Connectors:AK300-2 (layer F.Cu) (tedit 587FD45E) (tstamp 5914396D)
-    (at 130.81 102.235 180)
+    (at 35.56 57.785 180)
     (descr CONNECTOR)
     (tags CONNECTOR)
     (path /58D3977E)
@@ -869,7 +869,7 @@
   )
 
   (module Connectors:AK300-2 (layer F.Cu) (tedit 587FD45E) (tstamp 591439D3)
-    (at 187.325 99.695 180)
+    (at 92.075 55.245 180)
     (descr CONNECTOR)
     (tags CONNECTOR)
     (path /58D3C680)
@@ -982,7 +982,7 @@
   )
 
   (module TO_SOT_Packages_THT:TO-92_Inline_Wide (layer F.Cu) (tedit 58CE52AF) (tstamp 591439E7)
-    (at 158.115 100.965 180)
+    (at 62.865 56.515 180)
     (descr "TO-92 leads in-line, wide, drill 0.8mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
     (path /58D392EB)
@@ -1021,7 +1021,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P25.40mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 591439FD)
-    (at 165.1 100.965 270)
+    (at 69.85 56.515 270)
     (descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=25.4mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
     (tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 25.4mm 2W length 11.9mm diameter 4.5mm")
     (path /58D39335)
@@ -1059,7 +1059,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 59143A13)
-    (at 147.32 126.365 90)
+    (at 52.07 81.915 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (path /58D393DD)
@@ -1097,7 +1097,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 59143A29)
-    (at 158.115 111.125 270)
+    (at 62.865 66.675 270)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (path /58D39F73)
@@ -1135,7 +1135,7 @@
   )
 
   (module Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal (layer F.Cu) (tedit 5874F706) (tstamp 59143A3F)
-    (at 153.035 126.365 90)
+    (at 57.785 81.915 90)
     (descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=15.24mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 15.24mm 0.5W = 1/2W length 9mm diameter 3.2mm")
     (path /58D394F7)
@@ -1173,7 +1173,7 @@
   )
 
   (module Connectors:AK300-2 (layer F.Cu) (tedit 587FD45E) (tstamp 59145016)
-    (at 158.115 88.185 90)
+    (at 62.865 43.735 90)
     (descr CONNECTOR)
     (tags CONNECTOR)
     (path /59143DD1)
@@ -1285,17 +1285,13 @@
       (net 4 GND))
   )
 
-  (gr_circle (center 130.175 123.825) (end 132.08 126.365) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 130.175 79.375) (end 130.81 82.55) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 187.325 79.375) (end 189.23 81.915) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 187.325 123.825) (end 185.42 121.285) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 133.35 133.35) (end 184.15 133.35) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 120.65 120.015) (end 120.65 82.55) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 184.785 69.85) (end 133.35 69.85) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 196.85 82.55) (end 196.85 120.65) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 184.15 120.65) (end 196.85 120.65) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 133.35 82.55) (end 120.65 82.55) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 133.35 120.65) (end 133.35 133.35) (angle 92.86240523) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 184.15 82.55) (end 184.15 69.85) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 38.1 88.9) (end 88.9 88.9) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 25.4 75.565) (end 25.4 38.1) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 89.535 25.4) (end 38.1 25.4) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 101.6 38.1) (end 101.6 76.2) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 88.9 76.2) (end 101.6 76.2) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 38.1 38.1) (end 25.4 38.1) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 38.1 76.2) (end 38.1 88.9) (angle 92.86240523) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 88.9 38.1) (end 88.9 25.4) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
