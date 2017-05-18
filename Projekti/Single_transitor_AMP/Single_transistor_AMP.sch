@@ -60,7 +60,7 @@ U 1 1 58D39335
 P 5250 2850
 F 0 "R1" V 5330 2850 50  0000 C CNN
 F 1 "22K" V 5250 2850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P25.40mm_Horizontal" V 5180 2850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5180 2850 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-22K-pdf.php" H 5250 2850 50  0001 C CNN
 	1    5250 2850
 	1    0    0    1   

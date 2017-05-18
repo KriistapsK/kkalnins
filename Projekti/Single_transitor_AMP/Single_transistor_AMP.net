@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Kristaps/Desktop/TestProject/kkalnins/Projekti/Single_transitor_AMP/Single_transistor_AMP.sch)
-    (date "11.05.2017 13:35:30")
+    (date "18.05.2017 09:52:29")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 58D392EB))
     (comp (ref R1)
       (value 22K)
-      (footprint Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P25.40mm_Horizontal)
+      (footprint Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal)
       (datasheet https://www.digchip.com/datasheets/parts/datasheet/1838/CFR-50JB-22K-pdf.php)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
