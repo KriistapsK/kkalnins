@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Kristaps/Desktop/TestProject/kkalnins/Projekti/18W_AMP/18W_AMP.sch)
-    (date "25.05.2017 12:57:47")
+    (date "28.05.2017 22:43:48")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -280,10 +280,10 @@
         (pin (num 4) (name OUT) (type output))
         (pin (num 5) (name VCC) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical audio)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\audio.lib")))
   (nets

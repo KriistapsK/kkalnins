@@ -1,0 +1,195 @@
+Cmp-Mod V01 Created by PcbNew   date = 28.05.2017 22:42:54
+
+BeginCmp
+TimeStamp = 591EDE79
+Path = /591DB6E0
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_THT:CP_Radial_D8.0mm_P3.80mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE3AB
+Path = /5921FFDF
+Reference = U1;
+ValeurCmp = TDA2030A;
+IdModule  = TO_SOT_Packages_THT:TO-220-5_Pentawatt_Multiwatt-5_Horizontal_StaggeredType1;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE2B2
+Path = /591D7EE4
+Reference = Q1;
+ValeurCmp = BD908;
+IdModule  = TO_SOT_Packages_THT:TO-220-4_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDD77
+Path = /591D8143
+Reference = C1;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDE0B
+Path = /591D8176
+Reference = C2;
+ValeurCmp = 47uF;
+IdModule  = Capacitors_THT:CP_Radial_D6.3mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDE8F
+Path = /591E65C4
+Reference = C4;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDFC8
+Path = /591F49C2
+Reference = C5;
+ValeurCmp = 2200uF;
+IdModule  = Capacitors_THT:CP_Radial_D18.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDFDE
+Path = /591E6D3D
+Reference = C6;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EDFF4
+Path = /591E8087
+Reference = C7;
+ValeurCmp = 0.22uF;
+IdModule  = Capacitors_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE12D
+Path = /591E0044
+Reference = C8;
+ValeurCmp = 2200uF;
+IdModule  = Capacitors_THT:CP_Radial_D18.0mm_P7.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE145
+Path = /591D7F6B
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = Diodes_THT:D_A-405_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE15D
+Path = /591EC143
+Reference = D2;
+ValeurCmp = 1N4001;
+IdModule  = Diodes_THT:D_A-405_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE1C3
+Path = /591D7D45
+Reference = P1;
+ValeurCmp = INPUT;
+IdModule  = Connectors:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE229
+Path = /591D7D83
+Reference = P2;
+ValeurCmp = OUTPUT;
+IdModule  = Connectors:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE28F
+Path = /592134C3
+Reference = P3;
+ValeurCmp = CONN_01X02;
+IdModule  = Connectors:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE2D5
+Path = /591D7E3D
+Reference = Q2;
+ValeurCmp = BD907;
+IdModule  = TO_SOT_Packages_THT:TO-220-4_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE2EB
+Path = /591D82DE
+Reference = R1;
+ValeurCmp = 56K;
+IdModule  = Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE32D
+Path = /591DB742
+Reference = R4;
+ValeurCmp = 3.3K;
+IdModule  = Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE343
+Path = /591DBD21
+Reference = R5;
+ValeurCmp = 30K;
+IdModule  = Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE359
+Path = /591DAC26
+Reference = R6;
+ValeurCmp = 1.5;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE36F
+Path = /59204949
+Reference = R7;
+ValeurCmp = 1.5;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE385
+Path = /591DF938
+Reference = R8;
+ValeurCmp = 1;
+IdModule  = Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE301
+Path = /5926A7B7
+Reference = R2;
+ValeurCmp = 56K;
+IdModule  = Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 591EE317
+Path = /5926A2D3
+Reference = R3;
+ValeurCmp = 56K;
+IdModule  = Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal;
+EndCmp
+
+EndListe
