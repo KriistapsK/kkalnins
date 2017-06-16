@@ -381,7 +381,7 @@ P 4600 4100
 F 0 "U1" H 4900 4200 50  0000 C CNN
 F 1 "TDA2030A" H 4850 3950 50  0000 C CNN
 F 2 "TO_SOT_Packages_THT:TO-220-5_Pentawatt_Multiwatt-5_Horizontal_StaggeredType2" H 4400 4100 50  0001 C CIN
-F 3 "" H 4600 4100 50  0000 C CNN
+F 3 "http://pdf1.alldatasheet.com/datasheet-pdf/view/25044/STMICROELECTRONICS/TDA2030A.html" H 4600 4100 50  0001 C CNN
 	1    4600 4100
 	1    0    0    -1  
 $EndComp

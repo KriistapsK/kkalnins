@@ -47,10 +47,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR02
+L GND #PWR04
 U 1 1 58D170C6
 P 5950 4150
-F 0 "#PWR02" H 5950 3900 50  0001 C CNN
+F 0 "#PWR04" H 5950 3900 50  0001 C CNN
 F 1 "GND" H 5950 4000 50  0000 C CNN
 F 2 "" H 5950 4150 50  0000 C CNN
 F 3 "" H 5950 4150 50  0000 C CNN
@@ -92,7 +92,7 @@ Text HLabel 7100 3450 2    60   Output ~ 0
 Text HLabel 7100 4050 2    60   Input ~ 0
 GND
 Text HLabel 4550 3450 0    60   Input ~ 0
-VCC
++12V
 Connection ~ 5000 3450
 Connection ~ 6700 3450
 Connection ~ 6700 4050
@@ -116,4 +116,17 @@ Wire Wire Line
 Connection ~ 5950 4050
 Wire Wire Line
 	4550 3450 5450 3450
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 59450344
+P 5600 4150
+F 0 "#FLG05" H 5600 4245 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 4330 50  0000 C CNN
+F 2 "" H 5600 4150 50  0000 C CNN
+F 3 "" H 5600 4150 50  0000 C CNN
+	1    5600 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4150 5600 4150
 $EndSCHEMATC
